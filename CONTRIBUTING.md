@@ -7,7 +7,7 @@ Please follow the [code of conduct](CODE_OF_CONDUCT.md).
 ## Before you start
 
 Check [provider coverage](docs/providers.md) and existing
-[issues](https://github.com/dhanushk-offl/agentstat/issues) before starting an adapter.
+[issues](https://github.com/d5v7/agentstat/issues) before starting an adapter.
 For a substantial API change, open an issue describing the problem and intended
 behavior so the design can be discussed before implementation.
 
@@ -18,7 +18,7 @@ cost history are outside the library's scope. Callers own presentation and stora
 ## Local setup
 
 ```sh
-git clone https://github.com/dhanushk-offl/agentstat.git
+git clone https://github.com/d5v7/agentstat.git
 cd agentstat
 cargo test --all-features
 ```
@@ -67,7 +67,7 @@ from your application with the provider's Cargo feature enabled. Compare the
 reported windows, model labels, limits, reset times, balances, and spend with the
 provider's own usage page.
 
-Share the result in a [provider check](https://github.com/dhanushk-offl/agentstat/issues/new?template=provider_check.yml)
+Share the result in a [provider check](https://github.com/d5v7/agentstat/issues/new?template=provider_check.yml)
 or pull request. Include the provider, crate version or commit, enabled features,
 platform, credential type, date, and CLI version when relevant. Say which fields
 matched or differed, and whether the fetch returned an error. Remove tokens,

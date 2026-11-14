@@ -1,20 +1,20 @@
 <p align="center">
   <img src="docs/media/logo.png" width="220" alt="agentstat logo"><br>
   AI account usage, quotas, balances, and reset times for Rust applications.<br><br>
-  <a href="https://github.com/dhanushk-offl/agentstat/actions/workflows/ci.yml"><img src="https://github.com/dhanushk-offl/agentstat/actions/workflows/ci.yml/badge.svg" alt="Rust CI"></a>
+  <a href="https://github.com/d5v7/agentstat/actions/workflows/ci.yml"><img src="https://github.com/d5v7/agentstat/actions/workflows/ci.yml/badge.svg" alt="Rust CI"></a>
   <a href="https://crates.io/crates/agentstat"><img src="https://img.shields.io/crates/v/agentstat.svg" alt="crates.io version"></a>
   <a href="https://docs.rs/agentstat"><img src="https://docs.rs/agentstat/badge.svg" alt="docs.rs"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
   <a href="docs/development.md"><img src="https://img.shields.io/badge/Rust-stable-orange?logo=rust" alt="Rust stable"></a>
   <a href="#currently-supported"><img src="https://img.shields.io/badge/integrations-7_featured-brightgreen" alt="7 featured integrations"></a>
-  <a href="https://scorecard.dev/viewer/?uri=github.com/dhanushk-offl/agentstat"><img src="https://api.scorecard.dev/projects/github.com/dhanushk-offl/agentstat/badge" alt="OpenSSF Scorecard"></a><br><br>
+  <a href="https://scorecard.dev/viewer/?uri=github.com/d5v7/agentstat"><img src="https://api.scorecard.dev/projects/github.com/d5v7/agentstat/badge" alt="OpenSSF Scorecard"></a><br><br>
   <a href="#quick-start">Quick start</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#examples">Examples</a> ·
   <a href="#currently-supported">Supported providers</a> ·
   <a href="#coming-soon">Coming soon</a> ·
   <a href="docs/usage.md">Usage guide</a> ·
-  <a href="https://github.com/dhanushk-offl/agentstat/wiki">Wiki</a> ·
+  <a href="https://github.com/d5v7/agentstat/wiki">Wiki</a> ·
   <a href="#contributions-wanted">Contribute</a>
 </p>
 
@@ -194,7 +194,7 @@ spot endpoint or response changes and improve confidence in the adapters above.
 
 | Help needed | How to contribute |
 | --- | --- |
-| Real-account checks | Run a [live example](#try-your-real-account), compare its results with the provider's usage page, then [share the result](https://github.com/dhanushk-offl/agentstat/issues/new?template=provider_check.yml). |
+| Real-account checks | Run a [live example](#try-your-real-account), compare its results with the provider's usage page, then [share the result](https://github.com/d5v7/agentstat/issues/new?template=provider_check.yml). |
 | Adapter fixes | If a provider's response differs, add a redacted synthetic fixture and a focused fix. See [contributing](CONTRIBUTING.md). |
 | More providers | Pick an entry from [Coming soon](#coming-soon) and discuss its read-only usage endpoint before opening a pull request. |
 
@@ -226,7 +226,7 @@ check the returned data against your provider's usage page.
 | Resource | What you will find |
 | --- | --- |
 | [Usage guide](docs/usage.md) | Credentials, scopes, live examples, and transport options |
-| [Wiki](https://github.com/dhanushk-offl/agentstat/wiki) | Installation, examples, troubleshooting, issues, and roadmap |
+| [Wiki](https://github.com/d5v7/agentstat/wiki) | Installation, examples, troubleshooting, issues, and roadmap |
 | [Provider coverage](docs/providers.md) | Data surfaces and restrictions for every provider |
 | [Roadmap](docs/roadmap.md) | Planned integrations and entries outside the current scope |
 | [Development guide](docs/development.md) | Architecture, feature checks, and packaging |
@@ -235,7 +235,7 @@ check the returned data against your provider's usage page.
 | [Code of conduct](CODE_OF_CONDUCT.md) | Community expectations and reporting concerns |
 | [Security policy](SECURITY.md) | Reporting vulnerabilities and credential exposure |
 
-Support development through [GitHub Sponsors](https://github.com/sponsors/dhanushk-offl)
+Support development through [GitHub Sponsors](https://github.com/sponsors/d5v7)
 or [Buy Me a Coffee](https://www.buymeacoffee.com/itzmedhanu).
 
 Run the local checks:

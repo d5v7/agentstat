@@ -6,11 +6,11 @@ Detailed credential setup, account routing, live examples, and data behavior for
 
 ## Use from another Rust project
 
-These examples target version `0.1.1` after publication:
+These examples target version `0.1.2` after publication:
 
 ```toml
 [dependencies]
-agentstat = "0.1.1"
+agentstat = "0.1.2"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 ```
 
@@ -191,7 +191,7 @@ fixture coverage but has not yet been verified against a live OpenCode account.
 To use it from another Rust project:
 
 ```toml
-agentstat = { version = "0.1.1", features = ["opencode"] }
+agentstat = { version = "0.1.2", features = ["opencode"] }
 ```
 
 ```rust

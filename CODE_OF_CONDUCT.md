@@ -28,7 +28,7 @@ project elsewhere. Technical disagreement is welcome when expressed respectfully
 ## Reporting a concern
 
 For a private report, use a contact method the repository owner makes available
-on their [GitHub profile](https://github.com/dhanushk-offl). If none is available,
+on their [GitHub profile](https://github.com/d5v7). If none is available,
 open a minimal issue titled **Private conduct contact requested** without names,
 incident details, or personal information, so a maintainer can arrange a private
 channel. You do not need to disclose the concern publicly.

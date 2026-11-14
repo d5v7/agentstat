@@ -11,7 +11,7 @@ payloads in public issues or pull requests.
 
 If **Security → Report a vulnerability** is available on this repository, use
 that private reporting form. Otherwise, use a contact method the repository
-owner provides on their [GitHub profile](https://github.com/dhanushk-offl).
+owner provides on their [GitHub profile](https://github.com/d5v7).
 If no private channel is available, open an issue titled **Private security
 contact requested** with no vulnerability details. A maintainer can then arrange
 a private reporting channel.

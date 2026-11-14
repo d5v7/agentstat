@@ -21,7 +21,7 @@ Release with generated notes and the `.crate` archive.
 You can also set the secret through the GitHub CLI's interactive prompt:
 
 ```sh
-gh secret set CARGO_REGISTRY_TOKEN --repo dhanushk-offl/agentstat
+gh secret set CARGO_REGISTRY_TOKEN --repo d5v7/agentstat
 ```
 
 Configure the **Checks passed** status as a required check in the `main` branch
@@ -72,7 +72,7 @@ authorizes publication after the checks succeed. The publishing token is scoped
 to the secret-check and actual publication steps. GitHub Release creation has a
 separate job and token permission.
 
-Watch progress on [GitHub Actions](https://github.com/dhanushk-offl/agentstat/actions/workflows/release.yml)
+Watch progress on [GitHub Actions](https://github.com/d5v7/agentstat/actions/workflows/release.yml)
 or use `gh run list --workflow release.yml` and `gh run watch <run-id>`.
 
 ## Recovering a failed release

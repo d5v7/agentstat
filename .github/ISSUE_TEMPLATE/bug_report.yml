@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         Remove tokens, cookies, account identifiers, and private payloads before posting.
-        For vulnerabilities or credential exposure, follow [the security policy](https://github.com/dhanushk-offl/agentstat/blob/main/SECURITY.md).
+        For vulnerabilities or credential exposure, follow [the security policy](https://github.com/d5v7/agentstat/blob/main/SECURITY.md).
   - type: textarea
     id: environment
     attributes:
